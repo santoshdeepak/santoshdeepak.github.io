@@ -1,0 +1,246 @@
+.home-img {
+  background-image: url(../img/bg5.png);
+  background-attachment: fixed;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-black {
+  background-color: #0e192d;
+}
+
+.menu-text {
+  font-size: 15px;
+}
+
+.nav-margin {
+  margin-right: 35px;
+}
+
+.btn-border-blue {
+  border: 2px solid white;
+}
+
+.btn-border-blue:hover {
+  border: 2px solid white;
+  background-color: white;
+  color: #0766ff;
+}
+
+.btn-border-orange {
+  border: 2px solid white;
+  background-color: #f78922;
+  color: white;
+}
+
+.btn-border-orange:hover {
+  border: 2px solid white;
+  background-color: white;
+  color: #f78922;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    opacity: 0.9;
+    width: 21%;
+    margin-left: auto;
+    padding: 10px;
+  }
+  .menu-text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 577px) {
+  .navbar {
+    /* border-bottom: #008ed6 solid 3px; */
+    /* opacity: 0.9; */
+    margin: auto;
+    margin-top: 0.7em;
+    background-color: #0e192d;
+    /* background-color: #4B589D; */
+    width: 87%;
+    border-radius: 3px;
+    box-shadow: 0 0 10px grey;
+  }
+}
+
+.heading {
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+.about {
+  color: black;
+}
+
+.img-about-section {
+  width: 200px;
+  height: 200px;
+}
+
+.skills {
+  padding: 8px;
+  /* background: #0e50e9; */
+  background-color: #0e192d;
+  margin: 5px;
+  color: white;
+  /* border-radius: 2px; */
+  cursor: pointer;
+  box-shadow: 10px;
+  display: inline-block;
+  /* align-content: center; */
+}
+
+.skills:hover {
+  background-color: #303949;
+}
+
+.text-green {
+  color: darkgreen;
+}
+
+.text1 {
+  font-size: 51px;
+  /* font-family: calibri; */
+  font-style: italic;
+}
+
+.text2 {
+  font-size: 22px;
+}
+
+.text3 {
+  font-size: 21.5px;
+}
+
+.opacity {
+  background: rgba(4, 18, 65, 0.5);
+}
+
+.img {
+  border: 5px solid white;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  /* display: flex; */
+  align-items: center;
+}
+
+.vertical-center-pages {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  /* display: flex; */
+  align-items: center;
+}
+
+.contact-text {
+  font-size: 20px;
+}
+
+.bg-contact {
+  /* background-color: #0766ff; */
+  background-color: #f78922;
+}
+
+@media (max-width: 1200px) {
+  .text1 {
+    font-size: 43px;
+  }
+
+  .text2 {
+    font-size: 18px;
+  }
+
+  .text3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .text1 {
+    font-size: 32px;
+  }
+
+  .text2 {
+    font-size: 12px;
+  }
+
+  .text3 {
+    font-size: 13px;
+  }
+
+  img {
+    width: 260px;
+    height: 260px;
+  }
+}
+
+@media (min-width: 768px) {
+  .matter {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .text1 {
+    font-size: 42px;
+  }
+
+  .text2 {
+    font-size: 17px;
+  }
+  .text3 {
+    font-size: 17px;
+  }
+
+  .pic {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .text1 {
+    font-size: 30px;
+  }
+
+  .text2 {
+    font-size: 22px;
+  }
+
+  .text3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 415px) {
+  .text1 {
+    font-size: 28px;
+  }
+
+  .text2 {
+    font-size: 19px;
+  }
+
+  .text3 {
+    font-size: 28px;
+  }
+}
