@@ -1,5 +1,5 @@
 .home-img {
-  background-image: url(../img/bg5.png);
+  background-image: url(../img/bg4.jpg);
   background-attachment: fixed;
   position: relative;
   background-position: center;
@@ -13,20 +13,25 @@
 
 .menu-text {
   font-size: 15px;
+  color: black;
 }
 
+.text-blue{
+  color: #1d62d1;
+}
 .nav-margin {
-  margin-right: 35px;
+  margin-right: 20px;
 }
 
 .btn-border-blue {
   border: 2px solid white;
+  color: white;
 }
 
 .btn-border-blue:hover {
   border: 2px solid white;
   background-color: white;
-  color: #0766ff;
+  color:#1d62d1;
 }
 
 .btn-border-orange {
@@ -49,9 +54,50 @@
     padding: 10px;
   }
   .menu-text {
+    color: black;
     font-size: 12px;
   }
 }
+
+.text2{
+  animation: text 2s 1;
+  transition: 750ms ease-in-out;
+  /* margin-bottom: 20px; */
+  position: relative;
+}
+
+@keyframes text{
+  0%{
+    margin-top: 300px;
+  }
+  30%{
+    /* letter-spacing: 8px; */
+  }
+  85%{
+    /* letter-spacing: 8px; */
+    margin-top: 0px;
+  }
+}
+
+.img{
+  animation: image 2s 1;
+  transition: 750ms ease;
+  position: relative;
+}
+
+@keyframes image{
+  0%{
+    margin-top: 300px;
+  }
+  30%{
+    /* letter-spacing: 8px; */
+  }
+  85%{
+    /* letter-spacing: 8px; */
+    margin-top: 0px;
+  }
+}
+
 
 @media (min-width: 577px) {
   .navbar {
@@ -59,12 +105,25 @@
     /* opacity: 0.9; */
     margin: auto;
     margin-top: 0.7em;
-    background-color: #0e192d;
+    background-color: transparent;
+    /* background-color: #0e192d; */
     /* background-color: #4B589D; */
-    width: 87%;
+    width: 70%;
     border-radius: 3px;
-    box-shadow: 0 0 10px grey;
-  }
+    /* box-shadow: 0 0 10px grey; */
+    transition: 750ms ease;
+}
+}
+
+.bg-blue{
+  background-color: #1d62d1;
+}
+
+.navbar.scrolled{
+  background-color: #0e192d;
+  /* background-color: #1d62d1; */
+  color: black;
+  /* opacity: 0.9; */
 }
 
 .heading {
@@ -82,7 +141,7 @@
 }
 
 .skills {
-  padding: 8px;
+  padding: 8px; 
   /* background: #0e50e9; */
   background-color: #0e192d;
   margin: 5px;
@@ -92,6 +151,7 @@
   box-shadow: 10px;
   display: inline-block;
   /* align-content: center; */
+  transition: 750ms ease;
 }
 
 .skills:hover {
@@ -102,6 +162,9 @@
   color: darkgreen;
 }
 
+.text-blue{
+  color: #1d62d1;
+}
 .text1 {
   font-size: 51px;
   /* font-family: calibri; */
